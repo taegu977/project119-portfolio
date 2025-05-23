@@ -1,0 +1,27 @@
+.c-content02 {
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.index-logo img {
+	width: 620px;
+	height: 620px;
+	margin-left: 38px;
+}
+
+.im-box {
+	margin-right: 400px;
+}
+
+.file-box {
+	min-width: 540px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.file-box a:hover {
+   transform: scale(1.1) translateX(10px); /* 1.1배 크기 확장, 오른쪽으로 10px 이동 */
+   transition: transform 0.3s ease; /* 변환 효과가 0.3초 동안 부드럽게 진행 */
+}
