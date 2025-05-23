@@ -1,0 +1,83 @@
+.container {
+	height: 84px;
+}
+
+h1 {
+ width: 290px;
+ height: 84px;
+}
+
+.logo-box {
+  width: 290px;
+  display: flex; justify-content: flex-end;
+  align-items: center;
+}
+
+.main-con {
+  display: flex; justify-content: space-between;
+  gap: 20px;
+  min-height: 100vh;
+}
+
+.c-content02 {
+  width: 100%;
+  background-color: #fff;
+}
+
+.img-box {
+  overflow: hidden;
+  padding-left: 100px; 
+}
+
+.img-box01 {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.login-box > ul{
+  display: flex;
+  margin-right: 10px;
+}
+
+li > a:hover {
+  cursor: pointer;
+  color: rgb(129, 130, 204);
+}
+
+.login-box a::before {
+  content: "";
+  display: inline-block;
+  width: 20px; /* 로고의 크기 조정 */
+  height: 20px;
+  background-image: url('image/google.png');
+  background-size: cover;
+}
+
+.img-box img {
+  width: 100%; display: block;
+ }
+
+th {
+  background-color: #4c5d8a;
+  color: #fff;
+}
+
+td {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid #4c5d8a;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.drawline {
+  text-decoration: line-through;
+}
+
+h2 {
+  display: flex; align-items: center;
+  gap: 10px; justify-content: center;
+}
